@@ -1,5 +1,7 @@
 def new_hash
-  # return an empty hash
+  if new_hash["hash"]
+    new_hash["hash"] += 1
+  else new_hash = 1
 end
 
 def my_hash
