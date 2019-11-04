@@ -1,7 +1,6 @@
 def new_hash
-  if new_hash["hash"]
-    new_hash["hash"] += 1
-  else new_hash = 1
+  new_hash = {
+  }
 end
 
 def my_hash
